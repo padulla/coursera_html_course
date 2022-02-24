@@ -8,8 +8,15 @@ Mobile view should appear only if the width of the browser is equal to or less t
 * {
     box-sizing: border-box;
   }
+
+
+  body{background-color: white;
+
+  }
+
   h1 {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    color: black
   }
   
   p {
@@ -29,12 +36,6 @@ Mobile view should appear only if the width of the browser is equal to or less t
   }
 
 
-
-
-/* Simple Responsive Framework. */
-.row {
-    width: 100%;
-  }
 
 /********** Desktop **********/
 @media (min-width: 992px) {
@@ -135,37 +136,9 @@ Mobile view should appear only if the width of the browser is equal to or less t
       width: 100px;
       height: 100px;
     }
-    body {
-      background-color: blue;
-    }
+    
   }
 
 
 
 
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-color: gray;
-  }
-  
-  #box1 {
-    background-color: blue;
-    padding: 10px;
-    border: 5px solid black;
-    width: 300px;
-    height: 50px;
-    margin-top: 50px;
-    overflow: auto;
-  }
-  #content {
-    background-color: #90EE90; /* green */
-  }
-  
-  h1 {
-    margin-bottom: 30px;
-  }

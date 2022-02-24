@@ -1,0 +1,75 @@
+/*******You must implement the following breakpoints that will be considered desktop, tablet, and mobile.
+The browser should display a desktop version of the site when the width of the browser window is 992px and above. 
+Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. 
+Mobile view should appear only if the width of the browser is equal to or less than 767px') *****/
+
+
+/********** Base styles **********/
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+#p1 {
+  background-color: #A52A2A;
+  width: 300px;
+  height: 300px;
+}
+#p2 {
+  background-color: #DEB887;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+  }
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  #p1 {
+    width: 80%;
+  }
+  #p2 {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 50%;
+  }
+  #p2 {
+    width: 100px;
+    height: 100px;
+  }
+  body {
+    background-color: blue;
+  }
+}
+
+
+/********** Mobile **********/
+@media (max-width: 767px){
+    #p1 {
+      width: 50%;
+    }
+    #p2 {
+      width: 100px;
+      height: 100px;
+    }
+    body {
+      background-color: blue;
+    }
+  }
+

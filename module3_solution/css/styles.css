@@ -31,7 +31,7 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: #00FF99;
+	background-color: grey;
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
@@ -106,7 +106,7 @@ section {
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
+  background-color: #1f06fc;
   color: #FFFFFF;
 }
 
